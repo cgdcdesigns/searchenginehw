@@ -1,0 +1,85 @@
+body{
+    background-image: url(../1.jpg);
+    font-family: Arial, Helvetica, sans-serif
+}
+
+.wrap{
+    position: absolute;
+    width: 30%;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.search{
+    width: 100%;
+    position: relative;
+}
+
+.searchterm{
+    float: left;
+    width: 100%;
+    padding: 11px;
+    font-size: 20px;
+    outline: none;
+}
+
+.searchbtn{
+    position: absolute;
+    width: 100px;
+    height: 56px;
+    background-color: #000000;
+    text-align: center;
+    color: #ffffff;
+    cursor: pointer;
+    font-size: 20px;
+
+}
+
+
+.logo{ 
+    text-indent: -999999px;
+    background: url(hawaiian-airlines-3-logo-png-transparent.png);
+    width: 441px;
+    height: 160px;
+    justify-content: right;
+    float: left;
+}
+
+.img{
+    width: 100;
+    height: auto;
+}
+
+.nav{
+float: right;
+}
+
+.img-fluid{
+    max-width: 100%;
+    height: auto;
+    float: left;
+}
+
+.footer{
+    float: left;
+}
+
+.btn-primary{
+position: center;
+width: 200px;
+height: 40px;
+background-color: #000000;
+text-align: center;
+color: #ffffff;
+border: #000000
+
+}
+.form-group{
+    width: 500px;
+    height:100px;
+
+}
+.form-control{
+font-size: 15px
+}
